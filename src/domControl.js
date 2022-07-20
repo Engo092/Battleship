@@ -59,30 +59,30 @@ function domControl() {
         switch (shipLen) {
             case 5:
                 if (playerHit == 'computer') {
-                    playerMsg.innerHTML = 'You sunk the enemy Carrier!';
+                    playerMsg.innerHTML = 'You sank the enemy Carrier!';
                 } else {
-                    playerMsg.innerHTML = 'The enemy sunk your Carrier!';
+                    playerMsg.innerHTML = 'The enemy sank your Carrier!';
                 }
                 break;
             case 4:
                 if (playerHit == 'computer') {
-                    playerMsg.innerHTML = 'You sunk the enemy Battleship!';
+                    playerMsg.innerHTML = 'You sank the enemy Battleship!';
                 } else {
-                    playerMsg.innerHTML = 'The enemy sunk your Battleship!';
+                    playerMsg.innerHTML = 'The enemy sank your Battleship!';
                 }
                 break;
             case 3:
                 if (playerHit == 'computer') {
-                    playerMsg.innerHTML = 'You sunk the enemy Cruiser!';
+                    playerMsg.innerHTML = 'You sank the enemy Cruiser!';
                 } else {
-                    playerMsg.innerHTML = 'The enemy sunk your Cruiser!';
+                    playerMsg.innerHTML = 'The enemy sank your Cruiser!';
                 }
                 break;
             case 2:
                 if (playerHit == 'computer') {
-                    playerMsg.innerHTML = 'You sunk the enemy Destroyer!';
+                    playerMsg.innerHTML = 'You sank the enemy Destroyer!';
                 } else {
-                    playerMsg.innerHTML = 'The enemy sunk your Destroyer!';
+                    playerMsg.innerHTML = 'The enemy sank your Destroyer!';
                 }
                 break;
         }

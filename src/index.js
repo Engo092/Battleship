@@ -34,5 +34,3 @@ document.querySelector('.start').addEventListener('click', function() {
 });
 
 export default sleep;
-
-// file:///C:/Users/EnzoKusuki/Desktop/Programs/odin/battleship/dist/index.html
