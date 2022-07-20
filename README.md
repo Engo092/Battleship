@@ -1,0 +1,9 @@
+# Battleship Game
+
+This is a recreation of the classic game battleship, in which two players take turns attacking each other's board blindly until all the enemy ships have been sunk. I created this project using mostly Javascript, as this is yet another project from the The Odin Project curriculum.
+
+The way this website works is that the user will first place their ships on the board, being 5 ships: a carrier, a battleship, two cruisers and a destroyer. While placing the ships the user can click where he wants to place the ships, as well as its alignment, if it should be vertical or horizontal. Afterwards, the user can start the game and play against an AI, taking turns in attacking the enemy's board. The game ends once all ships have been sunk for either of the players, after which the game can be restarted... which just reloads the page.
+
+This way a challenging project to work with, and i do think the resulting code is a bit messy, but its ok. The purpose of this project was to serve as an introduction to Test-Driven Development (TTD), and it was definitively an interesting experience. I still have to practice a little but i do find it very useful. I first created the modules for the gameboard, players and ship logic and then moved on to DOM interacion and styling with CSS. I think i should probably study more about how game development works, as i get lost easily while trying to code any type of game logic.
+
+I still need to add some sort of AI to this project, so it is not completely finished just yet. Currently the AI just chooses random coordinates to play on, so its almost impossible for a player to lose a match. Onde done it should be a fun game to play though.
